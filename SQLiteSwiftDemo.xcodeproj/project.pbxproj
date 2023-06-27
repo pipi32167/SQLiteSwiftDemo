@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADB4D85A6B424763A3E8901A /* Pods_SQLiteSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB724380CA7319A86DB4E53C /* Pods_SQLiteSwiftDemo.framework */; };
 		DFDF22C42A499ECC00C736BD /* SQLiteSwiftDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDF22C32A499ECC00C736BD /* SQLiteSwiftDemoApp.swift */; };
 		DFDF22C62A499ECC00C736BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDF22C52A499ECC00C736BD /* ContentView.swift */; };
 		DFDF22C82A499ECD00C736BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFDF22C72A499ECD00C736BD /* Assets.xcassets */; };
 		DFDF22CB2A499ECD00C736BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFDF22CA2A499ECD00C736BD /* Preview Assets.xcassets */; };
 		DFDF22CD2A499ECD00C736BD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDF22CC2A499ECD00C736BD /* Persistence.swift */; };
 		DFDF22D02A499ECD00C736BD /* SQLiteSwiftDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFDF22CE2A499ECD00C736BD /* SQLiteSwiftDemo.xcdatamodeld */; };
+		DFDF22DC2A499FC700C736BD /* FTSService.mm in Sources */ = {isa = PBXBuildFile; fileRef = DFDF22D82A499FC700C736BD /* FTSService.mm */; };
+		DFDF22DD2A499FC700C736BD /* libsimple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDF22D92A499FC700C736BD /* libsimple.a */; };
+		DFDF22DE2A499FC700C736BD /* JIEBA.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DFDF22DB2A499FC700C736BD /* JIEBA.bundle */; };
+		DFDF22E02A49A0DD00C736BD /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDF22DF2A49A0DD00C736BD /* DB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3EF90D808F7B4AFF2CF9D1C1 /* Pods-SQLiteSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLiteSwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-SQLiteSwiftDemo/Pods-SQLiteSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A67C0F6FB03760EBA82BD1B4 /* Pods-SQLiteSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLiteSwiftDemo.release.xcconfig"; path = "Target Support Files/Pods-SQLiteSwiftDemo/Pods-SQLiteSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AB724380CA7319A86DB4E53C /* Pods_SQLiteSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLiteSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDF22C02A499ECC00C736BD /* SQLiteSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLiteSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDF22C32A499ECC00C736BD /* SQLiteSwiftDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteSwiftDemoApp.swift; sourceTree = "<group>"; };
 		DFDF22C52A499ECC00C736BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +31,12 @@
 		DFDF22CA2A499ECD00C736BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DFDF22CC2A499ECD00C736BD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		DFDF22CF2A499ECD00C736BD /* SQLiteSwiftDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SQLiteSwiftDemo.xcdatamodel; sourceTree = "<group>"; };
+		DFDF22D72A499FC700C736BD /* FTSService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSService.h; sourceTree = "<group>"; };
+		DFDF22D82A499FC700C736BD /* FTSService.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FTSService.mm; sourceTree = "<group>"; };
+		DFDF22D92A499FC700C736BD /* libsimple.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsimple.a; sourceTree = "<group>"; };
+		DFDF22DA2A499FC700C736BD /* SQLiteSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SQLiteSwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		DFDF22DB2A499FC700C736BD /* JIEBA.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JIEBA.bundle; sourceTree = "<group>"; };
+		DFDF22DF2A49A0DD00C736BD /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,17 +44,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB4D85A6B424763A3E8901A /* Pods_SQLiteSwiftDemo.framework in Frameworks */,
+				DFDF22DD2A499FC700C736BD /* libsimple.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3ADA6B4E2393DB2EAA66E471 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB724380CA7319A86DB4E53C /* Pods_SQLiteSwiftDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDEE2D0EFD5116E52FB6BA28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EF90D808F7B4AFF2CF9D1C1 /* Pods-SQLiteSwiftDemo.debug.xcconfig */,
+				A67C0F6FB03760EBA82BD1B4 /* Pods-SQLiteSwiftDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DFDF22B72A499ECC00C736BD = {
 			isa = PBXGroup;
 			children = (
 				DFDF22C22A499ECC00C736BD /* SQLiteSwiftDemo */,
 				DFDF22C12A499ECC00C736BD /* Products */,
+				BDEE2D0EFD5116E52FB6BA28 /* Pods */,
+				3ADA6B4E2393DB2EAA66E471 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,8 +90,10 @@
 		DFDF22C22A499ECC00C736BD /* SQLiteSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DFDF22D62A499FC700C736BD /* FTS */,
 				DFDF22C32A499ECC00C736BD /* SQLiteSwiftDemoApp.swift */,
 				DFDF22C52A499ECC00C736BD /* ContentView.swift */,
+				DFDF22DF2A49A0DD00C736BD /* DB.swift */,
 				DFDF22C72A499ECD00C736BD /* Assets.xcassets */,
 				DFDF22CC2A499ECD00C736BD /* Persistence.swift */,
 				DFDF22CE2A499ECD00C736BD /* SQLiteSwiftDemo.xcdatamodeld */,
@@ -73,6 +110,18 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DFDF22D62A499FC700C736BD /* FTS */ = {
+			isa = PBXGroup;
+			children = (
+				DFDF22D72A499FC700C736BD /* FTSService.h */,
+				DFDF22D82A499FC700C736BD /* FTSService.mm */,
+				DFDF22D92A499FC700C736BD /* libsimple.a */,
+				DFDF22DA2A499FC700C736BD /* SQLiteSwiftDemo-Bridging-Header.h */,
+				DFDF22DB2A499FC700C736BD /* JIEBA.bundle */,
+			);
+			path = FTS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFDF22D32A499ECD00C736BD /* Build configuration list for PBXNativeTarget "SQLiteSwiftDemo" */;
 			buildPhases = (
+				7E85157E5299B195F7E7E8D8 /* [CP] Check Pods Manifest.lock */,
 				DFDF22BC2A499ECC00C736BD /* Sources */,
 				DFDF22BD2A499ECC00C736BD /* Frameworks */,
 				DFDF22BE2A499ECC00C736BD /* Resources */,
+				66B9A01E18232830FB9D215A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFDF22DE2A499FC700C736BD /* JIEBA.bundle in Resources */,
 				DFDF22CB2A499ECD00C736BD /* Preview Assets.xcassets in Resources */,
 				DFDF22C82A499ECD00C736BD /* Assets.xcassets in Resources */,
 			);
@@ -138,15 +190,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		66B9A01E18232830FB9D215A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLiteSwiftDemo/Pods-SQLiteSwiftDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLiteSwiftDemo/Pods-SQLiteSwiftDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SQLiteSwiftDemo/Pods-SQLiteSwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E85157E5299B195F7E7E8D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQLiteSwiftDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DFDF22BC2A499ECC00C736BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFDF22DC2A499FC700C736BD /* FTSService.mm in Sources */,
 				DFDF22D02A499ECD00C736BD /* SQLiteSwiftDemo.xcdatamodeld in Sources */,
 				DFDF22CD2A499ECD00C736BD /* Persistence.swift in Sources */,
 				DFDF22C62A499ECC00C736BD /* ContentView.swift in Sources */,
 				DFDF22C42A499ECC00C736BD /* SQLiteSwiftDemoApp.swift in Sources */,
+				DFDF22E02A49A0DD00C736BD /* DB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +365,7 @@
 		};
 		DFDF22D42A499ECD00C736BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EF90D808F7B4AFF2CF9D1C1 /* Pods-SQLiteSwiftDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -287,10 +384,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SQLiteSwiftDemo/FTS",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.million.SQLiteSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SQLiteSwiftDemo/FTS/SQLiteSwiftDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,6 +400,7 @@
 		};
 		DFDF22D52A499ECD00C736BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A67C0F6FB03760EBA82BD1B4 /* Pods-SQLiteSwiftDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -316,10 +419,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SQLiteSwiftDemo/FTS",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.million.SQLiteSwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SQLiteSwiftDemo/FTS/SQLiteSwiftDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "70EEF42A-B5B6-4B67-8BAE-6269E55B398E"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C68A9BE-526D-49B1-BC0F-0990ED8F11D4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SQLiteSwiftDemo/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "add()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6C68A9BE-526D-49B1-BC0F-0990ED8F11D4 - cafd950c79600fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SQLiteSwiftDemo.ContentView.add() -&gt; ()"
+                  moduleName = "SQLiteSwiftDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trillion/dev/codes/work/SQLiteSwiftDemo/SQLiteSwiftDemo/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "6C68A9BE-526D-49B1-BC0F-0990ED8F11D4 - cafd950c79600fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SQLiteSwiftDemo.ContentView.add() -&gt; ()"
+                  moduleName = "SQLiteSwiftDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trillion/dev/codes/work/SQLiteSwiftDemo/SQLiteSwiftDemo/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "6C68A9BE-526D-49B1-BC0F-0990ED8F11D4 - cafd950c796ff40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SQLiteSwiftDemo.ContentView.add() -&gt; ()"
+                  moduleName = "SQLiteSwiftDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trillion/dev/codes/work/SQLiteSwiftDemo/SQLiteSwiftDemo/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "472">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "767E163F-5EEB-4861-93E6-91454448B1C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SQLiteSwiftDemo/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D622119-11BD-4E9B-A9AE-10BE3730C9B2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SQLiteSwiftDemo/DB.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "query(text:usingJieba:usingHighlight:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2D622119-11BD-4E9B-A9AE-10BE3730C9B2 - 1c1444a3f1ff6740"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SQLiteSwiftDemo.DB.query(text: Swift.String, usingJieba: Swift.Bool) throws -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "SQLiteSwiftDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trillion/dev/codes/work/SQLiteSwiftDemo/SQLiteSwiftDemo/DB.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "129"
+                  endingLineNumber = "129"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "2D622119-11BD-4E9B-A9AE-10BE3730C9B2 - 80533ea92685ef92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SQLiteSwiftDemo.DB.query(text: Swift.String, usingJieba: Swift.Bool, usingHighlight: Swift.Bool) throws -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "SQLiteSwiftDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trillion/dev/codes/work/SQLiteSwiftDemo/SQLiteSwiftDemo/DB.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "129"
+                  endingLineNumber = "129"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "2D622119-11BD-4E9B-A9AE-10BE3730C9B2 - 80533ea92685ef92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SQLiteSwiftDemo.DB.query(text: Swift.String, usingJieba: Swift.Bool, usingHighlight: Swift.Bool) throws -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "SQLiteSwiftDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/trillion/dev/codes/work/SQLiteSwiftDemo/SQLiteSwiftDemo/DB.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "129"
+                  endingLineNumber = "129"
+                  offsetFromSymbolStart = "212">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
